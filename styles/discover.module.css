@@ -1,0 +1,27 @@
+.card {
+    display: grid;
+    grid-template-columns: minmax(auto, 709px)  minmax(auto, 709px);
+    grid-gap: calc(5vmin - 0.7em);
+    background-color: #282828;
+    padding: 15px calc(5vmin);
+}
+
+.filter {
+    padding: 8px calc(8vmin);
+    background-color: #121212;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    .card {
+        margin: 0 auto;
+        grid-template-columns: calc(100vw - 10vmin);
+        grid-gap: 1.5em;
+    }
+
+    
+}

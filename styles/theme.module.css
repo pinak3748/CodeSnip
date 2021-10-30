@@ -1,0 +1,34 @@
+.theme-dark {
+    --primary-text: #fff;
+    --secondary-text: rgba(255, 255, 255, 0.7);
+    --action-activ: #fff;
+    --disabled-text: rgba(255, 255, 255, 0.5);
+    --action-hover: rgba(255, 255, 255, 0.08);
+    --action-selected: rgba(255, 255, 255, 0.16);
+    --action-disabled: rgba(255, 255, 255, 0.3);
+    --action-disabled-bg: rgba(255, 255, 255, 0.12);
+    --primary-bg: #121212;
+    --secondary-bg: #181818;
+    --section-bg: #404040;
+    --thr_bg: #18191A;
+    --section-secondary: #282828;
+    --text-prime: #b3b3b3;
+    --divider: rgba(255, 255, 255, 0.12);
+}
+
+.theme-light {
+    --primary-text: rgba(0, 0, 0, 0.87);
+    --secondary-text: rgba(0, 0, 0, 0.6);
+    --disabled-text: rgba(0, 0, 0, 0.38);
+    --action-activ: rgba(0, 0, 0, 0.54);
+    --action-hover: rgba(0, 0, 0, 0.04);
+    --action-selected: rgba(0, 0, 0, 0.08);
+    --action-disabled: rgba(0, 0, 0, 0.26);
+    --action-disabled-bg: rgba(0, 0, 0, 0.12);
+    --primary-bg: #f8f8ff;
+    --secondary-bg: #fefbf8;
+    --section-bg: #f8f8ff;
+    --section-secondary: #f5f5f5;
+    --text-prime: #161c2d;
+    --divider: rgba(255, 255, 255, 0.12);
+}

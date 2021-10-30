@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap");
+
+.card_hero {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+
+.card {
+    width: 100%;
+    padding: calc(0.1em + 0.8vmin) calc(0.4em + 1vmin);
+   max-height: 400px;
+    color: rgba(255, 255, 255, 0.7);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "title title title title fav"
+        "lang  lang lang  options options"
+        "des des des des des";
+}
+
+.title {
+    grid-area: title;
+    display: flex;
+    /* background-color: rgb(166, 224, 158); */
+}
+
+.fav {
+    grid-area: fav;
+    align-self: center;
+    /* background-color: rgb(219, 196, 145); */
+}
+
+.lang {
+    grid-area: lang; 
+    display: flex;
+    
+    padding: calc(0.1em + 0.8vmin) 0;
+    align-items: center;
+
+    /* background-color: rgb(118, 143, 226); */
+}
+
+
+.des {
+    grid-area: des;
+    padding: calc(0.1em + 0.8vmin) 0;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: calc(0.56rem + 0.8vmin);
+    /* background-color: rgb(240, 162, 220); */
+}
+
+.options {
+    grid-area: options;
+}
+
+.options > * {
+    justify-content: flex-end;
+}
+
+.button {
+    border: 0px;
+    background-color: transparent;
+}
+
+.like:hover {
+    background-color: red;
+    color: red;
+    background: red;
+}
+
+.pro_img {
+    align-items: center !important;
+    margin-right: 5px !important;
+    padding: calc(0.1em + 0.8vmin) calc(0.1em + 0.8vmin) calc(0.1em + 0.8vmin) 0;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+    margin-right: 5px !important;
+    padding: calc(0.1em + 0.8vmin) calc(0.1em + 0.8vmin) calc(0.1em + 0.8vmin) 0;
+}
+
+
+.title_head {
+    margin-bottom: 0;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.title_author {
+    margin-top: 0;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.ok::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 5em;
+    background-color: transparent;
+}
+
+.ok::-webkit-scrollbar {
+    width: 0.5em;
+    background-color: #181818;
+}
+
+.ok::-webkit-scrollbar-thumb {
+    border-radius: 3em;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #555;
+}
+
+.ok {
+    height: 250px;
+    margin: 0 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1150px) {
+
+    .title_head {
+        font-size: 1.2rem;
+    }
+
+    .title_author {
+        font-size: 1.1rem;
+        margin-bottom: 0;
+    }
+
+    .des {
+        font-size: 1.05rem;
+    }
+
+    .fav,
+    .options {
+        padding: 0.4rem;
+    }
+}
+
+@media screen and (min-width: 450px) and (max-width: 800px) {
+    .card {
+        padding: calc(0.1em + 0.9vmin) calc(0.4em + 1.5vmin);
+    }
+
+    .title_head {
+        font-size: 1.1rem;
+    }
+
+    .title_author {
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+
+    .des {
+        font-size: 1.05rem;
+    }
+
+    .fav,
+    .options {
+        padding: 0.4rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .card {
+        padding: calc(0.1em + 0.9vmin) calc(0.4em + 1.5vmin);
+
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+            "title title title"
+            "lang lang lang"
+            "des des des"
+            "options options fav";
+    }
+
+    .title_head {
+        font-size: 1rem;
+    }
+
+    .title_author {
+        font-size: 0.8rem;
+    }
+
+    .des {
+        font-size: 0.9rem;
+    }
+
+    .fav,
+    .options {
+        padding: 0.5rem;
+    }
+
+    /*
+        .avatar .pro_img{
+            margin: 2rem 2rem;
+        } */
+    .options > * {
+        justify-content: flex-start;
+    }
+}

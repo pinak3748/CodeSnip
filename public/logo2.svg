@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="-152.769 45.482 170 240" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1, 0, 0, 1, -64.650849, -29.434161)">
+    <path style="stroke: rgb(0, 0, 0); fill: rgb(33, 44, 56); strokeLinecap: round; strokeLinejoin: round; stroke-dashoffset: 5px; stroke-opacity: 0; filter: none; fill-rule: nonzero;" d="M -4.22 84.192 L -77.84 126.685 L -77.84 201.748 L 59.901 120.579 L 38.529 107.602 L -56.468 163.326 L -55.94 139.663 L 17.419 96.152 L -4.22 84.192 Z" transform="matrix(0.999863, 0.016549, -0.016549, 0.999863, 2.364782, 0.168015)"/>
+    <path style="stroke: rgb(0, 0, 0); fill: rgb(33, 44, 56); strokeLinecap: round; strokeLinejoin: round; stroke-dashoffset: 5px; stroke-opacity: 0;" d="M 72.042 138.306 L 71.776 164.513 L -56.468 238.813 L -56.468 250.263 C -56.468 250.263 -46.704 257.133 -46.44 257.133 C -46.176 257.133 72.567 188.178 72.567 188.178 L 71.512 262.476 L -3.428 306.772 L -23.747 293.795 L 49.875 250.539 L 50.679 224.531 L -45.912 281.581 L -78.105 263.77 L -78.105 226.112 L 72.042 138.306 Z"/>
+  </g>
+</svg>
