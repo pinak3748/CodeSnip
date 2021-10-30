@@ -1,5 +1,5 @@
 {
-  "name": "frontend-next",
+  "name": "Frontend",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/styled": "^11.3.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
@@ -26,7 +27,7 @@
     "next-auth": "^3.29.0",
     "next-connect": "^0.10.2",
     "nprogress": "^0.2.0",
-    "react": "16.6.0",
+    "react": "17.0.2",
     "react-ace": "^9.4.4",
     "react-codemirror": "^1.0.0",
     "react-codemirror2": "^7.2.1",
