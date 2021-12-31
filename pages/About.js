@@ -23,7 +23,7 @@ export default function About() {
             </p>
           </div>
           <div className="flex xs:justify-center flex-wrap -m-4">
-            <div className="p-4 xs:w-full lg:w-1/2">
+            <div className="p-4 xs:w-full">
               <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
                 {/* <img
                   alt="team"
@@ -32,7 +32,7 @@ export default function About() {
                 /> */}
                 <div className="rounded-lg w-48 h-48 flex justify-center items-center text-center object-cover object-center sm:mb-0 mb-4">
                   <Image
-                    src="/rhythm.png"
+                    src="/pavan.jpeg"
                     alt="Picture of the author"
                     height={200}
                     width={200}
@@ -41,7 +41,7 @@ export default function About() {
                 </div>
                 <div className="flex-grow sm:pl-8">
                   <h2 className="title-font font-medium text-lg text-white">
-                    Rhythm Jain
+                    Pavan Tidke
                   </h2>
                   <h3 className="text-gray-500 mb-3">Full-Stack Deveoper</h3>
                   <p className="mb-4">
@@ -79,13 +79,9 @@ export default function About() {
                 </div>
               </div>
             </div>
-            <div className="p-4 lg:w-1/2">
+            {/* <div className="p-4 lg:w-1/2">
               <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                {/* <img
-                  alt="team"
-                  className="flex-shrink-0  rounded-full w-48 h-48 object-cover object-center sm:mb-0 mb-4"
-                  src="pinak.jpg"
-                /> */}
+               
                 <div className="rounded w-48 h-48 object-cover object-center sm:mb-0 mb-4">
                   <Image
                     src="/pinak.jpg"
@@ -134,7 +130,7 @@ export default function About() {
                   </span>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
