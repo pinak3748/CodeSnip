@@ -42,7 +42,7 @@ export default function About() {
                   </h2>
                   <h3 className="text-gray-500 mb-3">Full-Stack Deveoper</h3>
                   <p className="mb-4">
-                  Prolific, full stack web developer with a passion for metrics and beating former "best-yets."
+                  Prolific, full stack web developer with a passion for metrics and beating former best-yets.
                   </p>
                   <span className="inline-flex">
                     <a className="text-gray-500">
