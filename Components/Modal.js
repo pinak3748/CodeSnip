@@ -6,6 +6,8 @@ import axios from "axios";
 import dynamic from "next/dynamic";
 import sty from "../styles/discover.module.css";
 import SkeletonCard from './SkeletonCard';
+
+import userImg from '../public/user-circle-solid.svg'
 const Cardlayout = dynamic(() => import("../Components/Card"), {
   loading: () => <SkeletonCard />,
   ssr: false,
@@ -75,7 +77,7 @@ export default function Modal(props) {
             <div className="flex flex-col justify-center align-middle">
               <div className="flex justify-center">
                 <Image
-                  src={rhythm}
+                  src={userImg}
                   alt="edit"
                   height={180}
                   width={180}

@@ -24,6 +24,8 @@ const Mydashboard = (props) => {
   };
 
 
+
+
   return (
     <>
       <div
@@ -265,7 +267,7 @@ const Mydashboard = (props) => {
               </div>
               <p className="text-3xl text-center self-center text-ghost">
                 {" "}
-                7.8K
+                { Math.floor(Math.random() * 10) + 1 }
               </p>
             </div>
             <div
@@ -283,7 +285,7 @@ const Mydashboard = (props) => {
               </div>
               <p className="text-3xl text-center self-center text-ghost">
                 {" "}
-                7.8K
+                { Math.floor(Math.random() * 10) + 1 }
               </p>
             </div>
             <div
@@ -301,7 +303,7 @@ const Mydashboard = (props) => {
               </div>
               <p className="text-3xl text-center self-center text-ghost">
                 {" "}
-                7.8K
+                { Math.floor(Math.random() * 10) + 1 }
               </p>
             </div>
             <div
@@ -319,12 +321,12 @@ const Mydashboard = (props) => {
               </div>
               <p className="text-3xl text-center self-center text-ghost">
                 {" "}
-                7.8K
+                { Math.floor(Math.random() * 10) + 1 }
               </p>
             </div>
           </div>
 
-          <div>
+          {/* <div>
             <p className="block text-secondary_text mt-2 xs:px-10 lg:px-4">
               Recent Snippets
             </p>
@@ -339,7 +341,6 @@ const Mydashboard = (props) => {
                     - 22/10/2021
                   </span>
                 </p>
-                {/* <label className="text-secondary_text px-3  bg-gray-400">Title : </label> */}
               </div>
               <div
                 className={`bg-thr_bg rounded-lg py-2 mb-3 items-center ${sty.shadow}`}
@@ -350,7 +351,6 @@ const Mydashboard = (props) => {
                     - 22/10/2021
                   </span>
                 </p>
-                {/* <label className="text-secondary_text px-3  bg-gray-400">Title : </label> */}
               </div>
               <div
                 className={`bg-thr_bg rounded-lg py-2 mb-3 items-center ${sty.shadow}`}
@@ -361,7 +361,6 @@ const Mydashboard = (props) => {
                     - 22/10/2021
                   </span>
                 </p>
-                {/* <label className="text-secondary_text px-3  bg-gray-400">Title : </label> */}
               </div>
               <div
                 className={`bg-thr_bg rounded-lg py-2 mb-3 items-center ${sty.shadow}`}
@@ -372,7 +371,6 @@ const Mydashboard = (props) => {
                     - 22/10/2021
                   </span>
                 </p>
-                {/* <label className="text-secondary_text px-3  bg-gray-400">Title : </label> */}
               </div>
               <div
                 className={`bg-thr_bg rounded-lg py-2 mb-3 items-center ${sty.shadow}`}
@@ -383,11 +381,10 @@ const Mydashboard = (props) => {
                     - 22/10/2021
                   </span>
                 </p>
-                {/* <label className="text-secondary_text px-3  bg-gray-400">Title : </label> */}
               </div>
             </div>
-          </div>
-        </div>
+          </div>*/}
+        </div> 
       </div>
     </>
   );
