@@ -57,8 +57,7 @@ export default function Contact() {
               Contact Us
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-              Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-              gentrify.
+             We are always ready to help, tell us about the problem you are facing.
             </p>
           </div>
           <div className="lg:w-1/2 md:w-2/3 mx-auto">

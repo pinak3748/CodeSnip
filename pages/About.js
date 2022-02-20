@@ -17,15 +17,14 @@ export default function About() {
               About Us
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-              We have a can-do attitude backed up by more than 24 years
-              experience delivering high-end, creative solutions on time and on
-              budget.
+              Motivated designer and developer with experience creating custom
+              websites through different languages. Strong collaboration skills and
+              proven history of application development
             </p>
           </div>
           <div className="flex xs:justify-center flex-wrap -m-4">
-          <div className="p-4 lg:w-1/2">
+            <div className="p-4 lg:w-1/2">
               <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-               
                 <div className="rounded w-48 h-48 object-cover object-center sm:mb-0 mb-4">
                   <Image
                     src="/rhythm.jpg"
@@ -42,7 +41,8 @@ export default function About() {
                   </h2>
                   <h3 className="text-gray-500 mb-3">Full-Stack Deveoper</h3>
                   <p className="mb-4">
-                  Prolific, full stack web developer with a passion for metrics and beating former best-yets.
+                    Prolific, full stack web developer with a passion for
+                    metrics and beating former best-yets.
                   </p>
                   <span className="inline-flex">
                     <a className="text-gray-500">
@@ -75,10 +75,9 @@ export default function About() {
                 </div>
               </div>
             </div>
-            
+
             <div className="p-4 lg:w-1/2">
               <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-               
                 <div className="rounded w-48 h-48 object-cover object-center sm:mb-0 mb-4">
                   <Image
                     src="/pinak.jpg"

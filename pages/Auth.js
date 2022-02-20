@@ -139,7 +139,7 @@ export default function Auth() {
 
             <form className="mt-6" action="#">
               <div>
-                <label className="block text-secondary_text">Email Address</label>
+                <label className="block text-secondary_text">Username</label>
                 <input
                   type="username"
                   name="username"
@@ -194,12 +194,10 @@ export default function Auth() {
               <div className="border-t border-gray-300 flex-grow ml-3" aria-hidden="true"></div>
             </div>
 
-            <div className="flex items-center justify-center space-x-2">
+            {/* <div className="flex items-center justify-center space-x-2">
               <button
                 className="w-1/3 items-center disabled:opacity-50 justify-center flex rounded-lg border border-gray-300 px-4 py-2.5 bg-gray-100 focus:bg-gray-100 text-gray-900 font-semibold"
-                onClick={() => signIn('google')}  disabled
-              >
-                {/* <img className="w-6 h-6 mr-1.5" src="./" alt="google" /> */}
+                onClick={() => signIn('google')}  disabled>
                 <div className="w-6 h-6 my-auto mr-1.5">
                 <Image
                     src="/google.svg"
@@ -209,14 +207,11 @@ export default function Auth() {
                     blurDataURL="data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAADAAQDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAbEAADAAMBAQAAAAAAAAAAAAABAgMABAURUf/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAECEf/aAAwDAQACEQMRAD8Anz9voy1dCI2mectSE5ioFCqia+KCwJ8HzGMZPqJb1oPEf//Z"
                   />
                 </div>
-                Google
+                Googlesd
               </button>
-            
               <button
                 className="w-1/3 items-center disabled:opacity-50 justify-center flex rounded-lg border border-gray-300 px-4 py-2.5 bg-gray-100 focus:bg-gray-100 text-gray-900 font-semibold"
-                onClick={() => signIn('github')}  disabled
-              >
-                {/* <img className="w-6 h-6 mr-1.5" src="./" alt="google" /> */}
+                onClick={() => signIn('github')}  disabled>
                 <div className="w-6 h-6 my-auto mr-1.5">
                 <Image
                     src="/github.svg"
@@ -228,8 +223,7 @@ export default function Auth() {
                 </div>
                 GitHub
               </button>
-
-            </div>
+            </div> */}
 
             <p className="mt-8 text-secondary_text text-center">
               Need an account?
@@ -336,9 +330,8 @@ export default function Auth() {
               <div className="border-t border-gray-300 flex-grow ml-3" aria-hidden="true"></div>
             </div>
 
-            <div className="flex items-center justify-center space-x-2">
+            {/* <div className="flex items-center justify-center space-x-2">
               <button className="w-1/3 items-center justify-center flex rounded-lg border border-gray-300 px-4 py-2.5 bg-gray-100 focus:bg-gray-100 text-gray-900 font-semibold" disabled>
-                {/* <img className="w-6 h-6 mr-1.5" src="./google.svg" alt="google" /> */}
                 <div className="w-6 h-6 my-auto mr-1.5">
                 <Image
                     src="/google.svg"
@@ -351,7 +344,6 @@ export default function Auth() {
                 Google
               </button>
               <button className="w-1/3 items-center  justify-center flex rounded-lg border border-gray-300 px-4 py-2.5 bg-gray-100 focus:bg-gray-100 text-gray-900 font-semibold" disabled>
-                {/* <img className="w-6 h-6 mr-1.5" src="./github.svg" alt="google" /> */}
                 <div className="w-6 h-6 my-auto mr-1.5">
                 <Image
                     src="/github.svg"
@@ -364,7 +356,7 @@ export default function Auth() {
                 GitHub
               </button>
 
-            </div>
+            </div> */}
 
             <p className="mt-8 text-secondary_text text-center">
               Already have an account?
