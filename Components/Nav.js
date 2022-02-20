@@ -89,7 +89,7 @@ export default function Nav(props) {
             </Link>
           </div>
         </div>
-        <div className={`pe-3 mt-1 ${darkMode ? "dark" : ""}`}>
+        {/* <div className={`pe-3 mt-1 ${darkMode ? "dark" : ""}`}>
           <div className="">
             <button onClick={() => setDarkMode(!darkMode)}>
               {darkMode ? (
@@ -117,7 +117,7 @@ export default function Nav(props) {
               )}
             </button>
           </div>
-        </div>
+        </div> */}
 
 
       <Hook {...props}/>
