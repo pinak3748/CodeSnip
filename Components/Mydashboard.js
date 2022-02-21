@@ -300,7 +300,7 @@ const Mydashboard = (props) => {
               </div>
               <p className="text-3xl text-center self-center text-ghost">
                 {" "}
-                {Math.floor(Math.random() * 10) + 1}
+                {4}
               </p>
             </div>
             <div
@@ -318,7 +318,7 @@ const Mydashboard = (props) => {
               </div>
               <p className="text-3xl text-center self-center text-ghost">
                 {" "}
-                {Math.floor(Math.random() * 10) + 1}
+                {3}
               </p>
             </div>
             <div
@@ -336,7 +336,7 @@ const Mydashboard = (props) => {
               </div>
               <p className="text-3xl text-center self-center text-ghost">
                 {" "}
-                {Math.floor(Math.random() * 10) + 1}
+                {1}
               </p>
             </div>
             <div
@@ -354,7 +354,7 @@ const Mydashboard = (props) => {
               </div>
               <p className="text-3xl text-center self-center text-ghost">
                 {" "}
-                {Math.floor(Math.random() * 10) + 1}
+                {1}
               </p>
             </div>
           </div>
